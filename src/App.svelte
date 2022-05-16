@@ -1,12 +1,14 @@
 <script lang="ts">
-import Card from "/src/lib/Card.svelte"
-  import Attribution from "/src/lib/Attribution.svelte"
+import Card from "./lib/Card.svelte"
+  import Attribution from "./lib/Attribution.svelte"
 </script>
 
 <div>
 <Card />
 </div>
-<style>
+
+<style lang="scss">
+  @use "./styles/_vars";
   div {
     display: flex;
     justify-content: center;

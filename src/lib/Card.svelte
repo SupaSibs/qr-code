@@ -11,7 +11,7 @@
 
 </div>
 
-<style>
+<style lang="scss">
 div {
   width: 30%
   
