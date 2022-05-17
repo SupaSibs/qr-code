@@ -12,8 +12,19 @@
 </div>
 
 <style lang="scss">
+  @use "../styles/vars" as vars;
 div {
-  width: 30%
-  
+ min-width: 60%;
+  max-width: 60%;
+  height: 50%;
+  background-color: vars.$wh;
+  border-radius: 10px
 }
+  
+  p {
+  font-size: 15px;
+  }
+  h1 {
+  font-size: 18px
+  }
 </style>

@@ -8,12 +8,13 @@ import Card from "./lib/Card.svelte"
 </div>
 
 <style lang="scss">
-  @use "./styles/_vars";
+  @use "./styles/vars" as vars;
   div {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     flex-direction: column;
+  background-color: vars.$lG;
   }
 </style>
