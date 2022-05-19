@@ -14,16 +14,19 @@ let src = "/src/assets/image-qr-code.png"
 <style lang="scss">
    @use "../styles/template" as template;
 img {
-  
+ max-width: 100%;
+  min-width: 80%;
+  max-height: 70%;
 }
   div {
- min-width: 60%;
+ min-width: 30%;
   max-width: 60%;
-  height: 50%;
+  height: 80%;
+  padding: 10px;
   background-color: template.$wh;
-  border-radius: 10px
+  border-radius: 10px;
+
 }
-  
   p {
   font-size: 15px;
   }

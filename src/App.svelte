@@ -14,6 +14,7 @@ import Card from "./lib/Card.svelte"
     justify-content: center;
     align-items: center;
     height: 100vh;
+  padding: 0;
     flex-direction: column;
   background-color: template.$lG;
   }
