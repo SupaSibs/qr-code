@@ -27,6 +27,11 @@ img {
   border-radius: 10px;
 
 }
+  @media screen and (min-width: 600px) {
+  div {
+  max-width: 40%
+  }
+  }
   p {
   font-size: 15px;
   }
