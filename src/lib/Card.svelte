@@ -27,7 +27,7 @@ img {
   border-radius: 10px;
 
 }
-  @media screen and (min-width: 600px) {
+  @media screen and (min-width: 535px) {
   div {
   max-width: 40%
   }
