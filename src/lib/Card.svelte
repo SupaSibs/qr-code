@@ -27,7 +27,12 @@ img {
   border-radius: 10px;
 
 }
-  @media screen and (min-width: 535px) {
+    @media screen and (min-width: 530px) and (max-width: 650px) {
+  div {
+  max-width: 50%
+  }
+  }
+  @media screen and (min-width: 650px) {
   div {
   max-width: 40%
   }
@@ -38,4 +43,5 @@ img {
   h1 {
   font-size: 18px
   }
+
 </style>
