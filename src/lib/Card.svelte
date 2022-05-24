@@ -1,5 +1,5 @@
 <script lang="ts">
-let src = "./public/image-qr-code.png"
+let src = "https://i.imgur.com/yFrM6bt.png"
 </script>
 
 <div>
