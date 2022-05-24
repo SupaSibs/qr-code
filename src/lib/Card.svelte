@@ -1,5 +1,5 @@
 <script lang="ts">
-let src = "/src/assets/image-qr-code.png"
+let src = "/public/image-qr-code.png"
 </script>
 
 <div>
@@ -34,7 +34,7 @@ img {
   }
   @media screen and (min-width: 650px) {
   div {
-  max-width: 40%
+  max-width: 36%
   }
   }
   p {
